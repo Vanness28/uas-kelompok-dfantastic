@@ -1,10 +1,10 @@
 import { Sequelize } from "sequelize";
-import db from "../config/Database.js";
+import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Menu = db.define(
-  "menu",
+const Place = db.define(
+  "Place",
   {
     uuid: {
       type: DataTypes.STRING,
@@ -28,4 +28,4 @@ const Menu = db.define(
   }
 );
 
-export default Menu;
+export default Place;

@@ -1,0 +1,51 @@
+GET http://localhost:5002/menus
+
+###
+
+GET http://localhost:5002/menu/1
+
+###
+POST http://localhost:5002/menu
+Content-Type: application/json
+
+{
+    "name": "drink"
+}
+
+###
+POST http://localhost:5002/menu
+Content-Type: application/json
+
+{
+    "name": "food"
+}
+
+
+
+###
+
+GET http://localhost:5002/place/1
+
+###
+POST http://localhost:5002/place
+Content-Type: application/json
+
+{
+    "name": "destination"
+}
+
+###
+POST http://localhost:5002/place
+Content-Type: application/json
+
+{
+    "name": "restaurant"
+}
+
+
+###
+GET  http://localhost:5002/fooddrinks
+
+###
+POST http://localhost:5002/fooddrink
+Content-Type: application/json
